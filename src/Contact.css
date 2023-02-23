@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    color: white;
+}
+
+.main-contact {
+    position: absolute;
+    width: 600px;
+    height: 442px;
+    background: #202020;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+.btn-modal {
+    background: #3137C9;
+    box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-right: 350px;
+    padding: 15px 22px 15px;
+    width: 150px;
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 14px 28px;
+    border-radius: 3px;
+    position: absolute;
+    width: 675px;
+    height: 541px;
+    background: #202020;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: #181818;
+    padding: 12px 20px 12px 0px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #FFFFFF33;
+    width: 500px;
+
+}
+
+input::placeholder {
+    color: #FFFFFF33;
+    font-size: 16px;
+}
+
+input {
+    color: white;
+    font-size: 17px;
+}
+
+#active {
+    border-bottom: 2px solid #107EFF;
+    color: white;
+    font-size: 17px;
+}
+
+#main-head {
+    position: relative;
+    right: 185px;
+    margin-bottom: 30px;
+}
+
+#modal-input {
+    background-color: #202020;
+}
+
+#info {
+    position: relative;
+    top: 120px;
+    display: flex;
+}
+
+#info p {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: #FFFFFF33;
+}
